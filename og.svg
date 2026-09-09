@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#20120B"/>
+  <path d="M0 0h1200v630H0z" fill="url(#bg)"/>
+  <path d="M848 0h352v630H848z" fill="#078CA9" fill-opacity=".22"/>
+  <path d="M913 0h287v630H913z" fill="#FFFAF2" fill-opacity=".05"/>
+  <path d="M980 0h220v630H980z" fill="#078CA9" fill-opacity=".24"/>
+  <path d="M77 88h1046" stroke="#FFFAF2" stroke-opacity=".18"/>
+  <text x="78" y="72" fill="#FFFAF2" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="10">REALTY FILMS</text>
+  <text x="80" y="183" fill="#FFFAF2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="9">WE FILM FIRST. YOU DECIDE AFTER.</text>
+  <text x="80" y="276" fill="#FFFAF2" font-family="Georgia, serif" font-size="76" font-weight="500">Cinematic films</text>
+  <text x="80" y="360" fill="#FFFAF2" font-family="Georgia, serif" font-size="76" font-weight="500">from property photos</text>
+  <path d="M82 426v78" stroke="#FFFAF2" stroke-opacity=".78" stroke-width="2"/>
+  <text x="124" y="454" fill="#FFFAF2" fill-opacity=".88" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">SEE THE FINISHED FILM BEFORE</text>
+  <text x="124" y="488" fill="#FFFAF2" fill-opacity=".88" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="5">YOU DECIDE TO BUY.</text>
+  <g transform="translate(822 362)" stroke="#FFFAF2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="94" cy="94" r="88" fill="#FFFAF2" fill-opacity=".08"/>
+    <path d="M48 96s18-33 46-33 46 33 46 33-18 33-46 33-46-33-46-33Z"/>
+    <circle cx="94" cy="96" r="14"/>
+  </g>
+  <g transform="translate(982 215)" stroke="#FFFAF2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="62" cy="62" r="58" fill="#FFFAF2" fill-opacity=".08"/>
+    <path d="M32 80V43h46l14 11v26H32Z"/>
+    <path d="m78 43 14 11"/>
+    <path d="M44 35v8M57 35v8M70 35v8"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1200" y1="630" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#120A05"/>
+      <stop offset=".55" stop-color="#2A1B12"/>
+      <stop offset="1" stop-color="#4B382E"/>
+    </linearGradient>
+  </defs>
+</svg>
