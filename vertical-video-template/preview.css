@@ -1,0 +1,74 @@
+.preview-page { background: #fffefe; color: #191714; }
+.preview-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; max-width: 1280px; margin: auto; padding: 32px 48px 20px; }
+.back-link { display: flex; align-items: center; gap: 12px; font-size: 14px; min-height: 44px; }
+.back-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.film { padding: 4px 24px 0; text-align: center; }
+.preview-eyebrow { font-size: 13px; font-weight: 500; letter-spacing: .24em; text-transform: uppercase; color: #746f6a; }
+.film h1 { max-width: 820px; margin: 12px auto 14px; font-size: clamp(34px, 4.8vw, 52px); line-height: 1.12; }
+.property-address { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 auto 46px; font-size: 18px; line-height: 1.5; }
+.property-address svg { width: 22px; height: 22px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.player { position: relative; width: min(100%, 380px); margin: auto; aspect-ratio: 9 / 16; overflow: hidden; border-radius: 8px; background: #251e16; box-shadow: 0 3px 8px #20150812; }
+.player video { width: 100%; height: 100%; object-fit: contain; }
+.play-button { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 76px; height: 76px; border: 1px solid #ffffffb3; border-radius: 50%; background: #201b1666; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 8px 28px #00000026, inset 0 1px 0 #ffffff26; color: white; cursor: pointer; transition: background .2s ease, box-shadow .2s ease; }
+.play-button svg { width: 30px; height: 30px; margin-left: 3px; fill: currentColor; }
+.play-button:hover { background: #201b1699; box-shadow: 0 10px 32px #00000038; }
+[hidden] { display: none !important; }
+.video-status { max-width: 500px; margin: 16px auto 0; line-height: 1.5; }
+.video-status a { text-decoration: underline; }
+.personal-note { width: min(100% - 48px, 760px); margin: 44px auto 56px; }
+.contact-profile { text-align: center; margin-bottom: 20px; }
+.portrait { display: block; width: 112px; height: 112px; margin: 0 auto 12px; border-radius: 50%; object-fit: cover; background: #eeebe3; }
+.contact-name { font: 26px var(--font-serif); }
+.profile-caption { margin-top: 8px; font-size: 12px; line-height: 1.5; letter-spacing: .16em; text-transform: uppercase; color: #746f6a; }
+.letter { padding-inline: 36px; }
+.letter h2 { font-size: 36px; line-height: 1.2; margin-bottom: 10px; }
+.letter p { margin-top: 14px; font-size: 17px; line-height: 1.65; }
+.offer { display: grid; grid-template-columns: 240px 1fr; align-items: center; gap: 32px; margin-top: 28px; padding: 26px 32px; background: #f7f5f3; border-radius: 10px; }
+.price { border-right: 1px solid #ded7d0; padding-right: 32px; }
+.price-amount { margin: 6px 0; font: 62px/1.1 var(--font-serif); letter-spacing: -.04em; }
+.price-amount span { font-size: 30px; }
+.price > p:last-child { font-size: 16px; }
+.deliverables h3 { font: 18px var(--font-serif); margin-bottom: 12px; }
+.deliverables ul { list-style: none; margin: 0; padding: 0; }
+.deliverables li { position: relative; padding-left: 28px; font-size: 15px; line-height: 1.5; }
+.deliverables li + li { margin-top: 8px; }
+.deliverables li::before { content: '✓'; position: absolute; left: 0; color: #685747; font-size: 19px; }
+.contact-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 18px; }
+.response-note { margin-top: 16px; color: #746f6a; font-size: 14px; line-height: 1.5; text-align: center; }
+.contact-button { display: flex; align-items: center; justify-content: center; gap: 20px; border-radius: 9px; padding: 20px 16px; background: #f7f5f3; }
+.contact-button--email { background: #0083a9; color: #fff; }
+.contact-button svg { width: 38px; height: 38px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.contact-button strong { display: block; font: 20px/1.25 var(--font-serif); }
+.contact-button span span { display: block; margin-top: 4px; font-size: 14px; overflow-wrap: anywhere; }
+.contact-button:hover { box-shadow: 0 4px 16px #20150820; }
+.preview-faq { padding: 32px 0 42px; background: radial-gradient(circle at 85% 20%, rgb(7 140 169 / 20%), transparent 32%), linear-gradient(105deg, #120a05 0%, #24140b 48%, #120a05 100%); color: #fffaf2; }
+.faq-wrap { width: min(100% - 96px, 1120px); margin: auto; }
+.preview-faq .preview-eyebrow { color: #e6ded4; font-size: 12px; }
+.preview-faq h2 { color: inherit; font-size: 40px; margin: 12px 0 8px; }
+.preview-faq details { border-bottom: 1px solid #ffffff38; }
+.preview-faq summary { position: relative; padding: 14px 36px 14px 0; cursor: pointer; list-style: none; font: 18px/1.4 var(--font-serif); }
+.preview-faq summary::-webkit-details-marker { display: none; }
+.preview-faq summary::after { content: ''; position: absolute; right: 6px; top: 21px; width: 8px; height: 8px; border-right: 1px solid; border-bottom: 1px solid; transform: rotate(45deg); }
+.preview-faq details[open] summary::after { transform: rotate(225deg); top: 25px; }
+.preview-faq details p { max-width: 880px; padding: 0 32px 20px 0; font-size: 16px; line-height: 1.7; color: #ddd3c7; }
+@media (max-width: 600px) {
+  .preview-header { padding: 16px 20px; gap: 12px; }
+  .preview-header .brand { font-size: 11px; letter-spacing: .23em; }
+  .back-link { font-size: 12px; gap: 7px; }
+  .film { padding: 16px 24px 0; }
+  .film h1 { font-size: 36px; margin-bottom: 14px; }
+  .property-address { font-size: 16px; gap: 8px; margin-bottom: 40px; }
+  .player { max-width: 340px; }
+  .personal-note { margin-top: 40px; margin-bottom: 36px; }
+  .letter { padding-inline: 0; }
+  .letter h2 { font-size: 32px; }
+  .letter p { font-size: 16px; }
+  .offer { grid-template-columns: 1fr; gap: 20px; padding: 24px; }
+  .price { border-right: 0; border-bottom: 1px solid #ded7d0; padding: 0 0 20px; }
+  .contact-actions { grid-template-columns: 1fr; gap: 12px; }
+  .contact-button { justify-content: flex-start; padding-left: 28px; }
+  .faq-wrap { width: calc(100% - 48px); }
+  .preview-faq summary { font-size: 18px; }
+}
+
+.contact-button .whatsapp-icon { fill: currentColor; stroke: none; }
