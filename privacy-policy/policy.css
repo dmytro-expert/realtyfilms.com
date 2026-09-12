@@ -16,3 +16,6 @@ body { background: #fffefe; }
   .policy { margin-top: 32px; margin-bottom: 56px; }
   .policy-copy { font-size: 16px; margin-top: 28px; }
 }
+
+.policy-copy h2 { font-size: 30px; line-height: 1.2; margin: 36px 0 14px; }
+.policy-copy h2:first-child { margin-top: 0; }
