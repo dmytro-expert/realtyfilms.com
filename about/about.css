@@ -1,0 +1,67 @@
+.about-page { background: #fffefe; }
+.about-header .nav { color: #706d69; }
+.about-header .nav [aria-current] { color: #191714; text-decoration: underline; text-underline-offset: 12px; text-decoration-thickness: 2px; }
+.about-intro { text-align: center; padding-top: 64px; }
+.home-link { display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 14px; }
+.home-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.about-intro > .eyebrow { font-size: 13px; letter-spacing: .3em; }
+.about-intro h1 { max-width: none; font-size: clamp(38px, 5vw, 64px); line-height: 1.12; }
+.about-lead { margin-top: 24px; color: #767473; font-size: 21px; line-height: 1.5; }
+.team { display: grid; grid-template-columns: 1fr 1fr; margin-top: 54px; }
+.person { position: relative; padding: 0 44px; }
+.person + .person::before { content: ''; position: absolute; top: 42px; bottom: 0; left: 0; width: 1px; background: #e6e3df; }
+.person img { display: block; width: min(100%, 300px); height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; margin: auto; }
+.person h2 { font-size: 44px; margin-top: 20px; }
+.person .eyebrow { margin: 14px 0 24px; font-size: 12px; letter-spacing: .3em; }
+.person-bio { max-width: 380px; margin: auto; color: #767473; font-size: 21px; line-height: 1.5; }
+.story-banner { position: relative; margin-top: 54px; aspect-ratio: 1.62; overflow: hidden; border-radius: 14px; isolation: isolate; }
+.story-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.story-banner::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, transparent 35%, #00000040); z-index: 1; }
+.banner-copy { position: absolute; z-index: 2; top: 19%; right: 6%; width: 46%; text-align: center; color: #fff; }
+.banner-copy p { font: 34px/1.35 var(--font-serif); letter-spacing: .1em; text-transform: uppercase; text-shadow: 0 2px 14px #0009; }
+.banner-copy span { display: block; height: 1px; width: 50px; background: currentColor; margin: 24px auto 0; }
+.values { padding-block: 64px 46px; text-align: center; }
+.values > .eyebrow { font: 500 12px/1.5 var(--font-sans); letter-spacing: .3em; margin-bottom: 26px; }
+.values-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+.values-grid article { padding: 6px 28px 0; }
+.values-grid article + article { border-left: 1px solid #e6e3df; }
+.values-grid svg { width: 56px; height: 56px; margin: 0 auto 24px; fill: none; stroke: #141210; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.values-grid h3 { font-size: 29px; }
+.values-grid p { margin-top: 14px; font-size: 17px; line-height: 1.6; color: #767473; }
+.about-cta { padding: 60px 28px 76px; text-align: center; border-radius: 14px; color: #fffaf2; background: radial-gradient(ellipse at 85% 15%, #078ca933, transparent 40%), linear-gradient(105deg, #120a05, #24140b 48%, #120a05); }
+.about-cta .eyebrow { color: #eee5db; font-size: 12px; letter-spacing: .3em; }
+.about-cta h2 { color: inherit; font-size: clamp(36px, 5vw, 54px); line-height: 1.15; }
+.cta-copy { margin: 16px 0 32px; font-size: 19px; line-height: 1.5; }
+.about-cta .email-button { max-width: 520px; margin: auto; min-height: 78px; font-weight: 400; background: #0084ac; }
+.about-page .footer { margin-top: 36px; }
+.about-page .footer__inner { border-top: 1px solid #e6e3df; }
+@media (max-width: 700px) {
+  .about-intro { padding-top: 36px; }
+  .about-lead { font-size: 18px; }
+  .desktop-break { display: none; }
+  .team { grid-template-columns: 1fr; gap: 40px; margin-top: 36px; }
+  .person { padding: 0 12px; }
+  .person + .person::before { display: none; }
+  .person img { width: 240px; }
+  .person-bio { font-size: 18px; }
+  .story-banner { aspect-ratio: 1.15; margin-top: 40px; }
+  .banner-copy { right: 4%; width: 65%; top: 14%; }
+  .banner-copy p { font-size: clamp(20px, 4vw, 28px); }
+  .values { padding-block: 40px; }
+  .values-grid { grid-template-columns: 1fr; gap: 28px; }
+  .values-grid article { padding: 20px 10px 0; }
+  .values-grid article + article { border-left: 0; border-top: 1px solid #e6e3df; }
+  .values-grid p { max-width: 310px; margin-inline: auto; }
+  .about-cta { padding: 40px 20px; }
+  .cta-copy { font-size: 17px; }
+  .about-cta .email-button { gap: 10px; padding-inline: 14px; }
+}
+
+.about-cta .email-button span { text-align: left; }
+.linkedin-link { display: inline-grid; place-items: center; width: 44px; height: 44px; margin-top: 8px; color: #191714; border-radius: 6px; }
+.linkedin-link svg { width: 24px; height: 24px; fill: currentColor; }
+.linkedin-link:hover { color: #0a66c2; background: #0a66c210; }
+
+@media (max-width: 600px) {
+  .home-link { font-size: 12px; gap: 7px; }
+}
